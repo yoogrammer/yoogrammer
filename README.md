@@ -399,9 +399,7 @@ Multiple projects built for national and international hackathons showcasing inn
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=yoogrammer&theme=radical&hide_border=true" />
 </div>
 
-<div align="center">
-  <img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yoogrammer&layout=compact&theme=radical&hide_border=true&langs_count=10" />
-</div>
+
 
 
 <div align="center">
