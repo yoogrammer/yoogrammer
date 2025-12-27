@@ -63,7 +63,7 @@ const rohan = {
 ## 🏆 Major Achievement
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="100" />
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" alt="Trophy" width="100" />
 </p>
 
 <div align="center">
@@ -72,18 +72,18 @@ const rohan = {
 
 <table>
   <tr>
-    <td align="center">
-      <img src="https://media.giphy.com/media/26tPqTOGf3MMAaJR6/giphy.gif" width="80"><br/>
+    <td align="center" width="200">
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/3rd%20Place%20Medal.png" width="80"><br/>
       <b>🥉 3rd Place</b><br/>
       Global Ranking
     </td>
-    <td align="center">
-      <img src="https://media.giphy.com/media/l0HlHFRbmaZtBRhXG/giphy.gif" width="80"><br/>
+    <td align="center" width="200">
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Asia-Australia.png" width="80"><br/>
       <b>🌍 International</b><br/>
       LabLab AI
     </td>
-    <td align="center">
-      <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="80"><br/>
+    <td align="center" width="200">
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="80"><br/>
       <b>🚀 Innovation</b><br/>
       AI Solution
     </td>
@@ -93,7 +93,7 @@ const rohan = {
 </div>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yoogrammer&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
+  <img src="https://github-profile-trophy.vercel.app/?username=yoogrammer&theme=radical&no-frame=false&no-bg=true&margin-w=4&column=7" />
 </p>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
@@ -151,56 +151,56 @@ const rohan = {
 <table align="center">
   <tr>
     <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="48" />
     </td>
-    <td width="400">
+    <td width="500">
       <b>Java</b><br/>
-      <img src="https://progress-bar.dev/90/?scale=100&width=400&color=f89820&suffix=%" />
+      ![](https://geps.dev/progress/90?dangerColor=800000&warningColor=ff9900&successColor=006600)
     </td>
   </tr>
   <tr>
     <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="48" />
     </td>
-    <td width="400">
+    <td width="500">
       <b>Python</b><br/>
-      <img src="https://progress-bar.dev/85/?scale=100&width=400&color=3776ab&suffix=%" />
+      ![](https://geps.dev/progress/85?dangerColor=800000&warningColor=ff9900&successColor=006600)
     </td>
   </tr>
   <tr>
     <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="48" />
     </td>
-    <td width="400">
+    <td width="500">
       <b>Data Structures & Algorithms</b><br/>
-      <img src="https://progress-bar.dev/80/?scale=100&width=400&color=00599c&suffix=%" />
+      ![](https://geps.dev/progress/80?dangerColor=800000&warningColor=ff9900&successColor=006600)
     </td>
   </tr>
   <tr>
     <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="48" />
     </td>
-    <td width="400">
+    <td width="500">
       <b>Web Development</b><br/>
-      <img src="https://progress-bar.dev/75/?scale=100&width=400&color=e34f26&suffix=%" />
+      ![](https://geps.dev/progress/75?dangerColor=800000&warningColor=ff9900&successColor=006600)
     </td>
   </tr>
   <tr>
     <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="48" />
     </td>
-    <td width="400">
+    <td width="500">
       <b>Database & Backend</b><br/>
-      <img src="https://progress-bar.dev/70/?scale=100&width=400&color=777bb4&suffix=%" />
+      ![](https://geps.dev/progress/70?dangerColor=800000&warningColor=ff9900&successColor=006600)
     </td>
   </tr>
   <tr>
     <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="48" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="48" />
     </td>
-    <td width="400">
+    <td width="500">
       <b>AI & Automation</b><br/>
-      <img src="https://progress-bar.dev/65/?scale=100&width=400&color=ff6f00&suffix=%" />
+      ![](https://geps.dev/progress/65?dangerColor=800000&warningColor=ff9900&successColor=006600)
     </td>
   </tr>
 </table>
