@@ -34,7 +34,7 @@
 const rohan = {
     role: "Computer Science Student",
     college: "Tuljaram Chaturchand College, Baramati",
-    location: "Bhiwandi, Maharashtra 🇮🇳",
+    location: "Baramati, Maharashtra 🇮🇳",
     currentFocus: [
         "Software Development",
         "AI & Automation",
