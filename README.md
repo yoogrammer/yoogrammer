@@ -398,15 +398,16 @@ Multiple projects built for national and international hackathons showcasing inn
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=yoogrammer&show_icons=true&theme=radical&hide_border=true&count_private=true" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=yoogrammer&theme=radical&hide_border=true" />
 </div>
-
+<!--
 <div align="center">
   <img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yoogrammer&layout=compact&theme=radical&hide_border=true&langs_count=10" />
 </div>
-
+-->
+<!--
 <div align="center">
   <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=yoogrammer&theme=radical&hide_border=true&area=true" alt="Activity Graph" />
 </div>
-
+-->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 <!-- ===================== CONTRIBUTION SNAKE ===================== -->
