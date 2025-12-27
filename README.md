@@ -1,108 +1,151 @@
-<h1 align="center">Hi 👋, I'm Rohan Jadhav</h1>
+<!-- ===================== HEADER ===================== -->
+
+<h1 align="center">👋 Hi, I'm Rohan Jadhav</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&pause=800&center=true&vCenter=true&width=600&lines=BSc+Computer+Science+Student;AI+and+Software+Development+Enthusiast;Hackathon+Builder;Learning+by+Building+Projects" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=2500&pause=700&center=true&vCenter=true&width=750&lines=BSc+Computer+Science+Student;Full+Stack+Learner;AI+%26+Automation+Explorer;Hackathon+Builder;Turning+Ideas+Into+Products" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=yoogrammer&label=Profile%20Views&color=0e75b6&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=yoogrammer&label=Profile%20Views&color=blueviolet&style=flat" />
+  <img src="https://img.shields.io/github/followers/yoogrammer?label=Followers&style=flat&color=blue" />
 </p>
 
----
+<hr/>
 
-## 👨‍💻 About Me  
+<!-- ===================== ABOUT ===================== -->
 
-🎓 BSc Computer Science student at **Tuljaram Chaturchand College, Baramati**  
-💡 Passionate about building real world projects  
-🚀 Interested in AI, software development, and hackathons  
-🛠️ I enjoy turning ideas into working products  
+## 🧠 About Me
 
----
+🎓 BSc Computer Science student  
+🏫 Tuljaram Chaturchand College, Baramati  
 
-## 🚀 Featured Projects  
+I learn best by building real projects.  
+My focus is on writing clean logic, understanding fundamentals, and creating things that are actually useful.  
+I actively participate in hackathons, workshops, and tech competitions.
 
-🔹 **Brocode**  
-Beginner friendly learning platform for  
-Java, Python, C, C++, HTML, DSA  
+<hr/>
 
-🔹 **MirrorMind**  
-AI powered emotional health mirror  
-Emotion detection using face, voice, and text  
-Personalized wellness feedback  
+<!-- ===================== TECH DASHBOARD ===================== -->
 
-🔹 **Cheat Pros**  
-Programming cheat codes and syntax explained simply  
+## 🖥️ Tech Dashboard
 
-🔹 **Hackathon Builds**  
-AI, automation, and blockchain based projects  
-National and international hackathons  
-
----
-
-## 🛠️ Tech Stack  
-
-### 💻 Languages  
+### 💻 Programming Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=java,python,c,cpp,js" />
+  <img src="https://skillicons.dev/icons?i=java,python,c,cpp,js&theme=dark" />
 </p>
 
-### 🌐 Web  
+### 🌐 Web Development
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,php,mysql" />
+  <img src="https://skillicons.dev/icons?i=html,css,php,mysql&theme=dark" />
 </p>
 
-### ⚙️ Tools  
+### ⚙️ Tools & Platforms
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,eclipse" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,eclipse,linux&theme=dark" />
 </p>
 
----
+### 🤖 AI & Concepts
+<p>
+  <img src="https://skillicons.dev/icons?i=python,tensorflow&theme=dark" />
+</p>
 
-## 🌱 Currently Learning  
+<hr/>
 
-✔ Advanced Java  
-✔ JavaScript for web apps  
-✔ AI and ML fundamentals  
-✔ Android development  
-✔ Cloud basics  
+<!-- ===================== SKILL LEVEL UI ===================== -->
 
----
+## 📊 Skill Levels
 
-## 🏆 Achievements  
+| Skill | Level |
+|------|-------|
+| Java | █████████░ 90% |
+| Python | ████████░░ 80% |
+| Data Structures | ████████░░ 80% |
+| Web Development | ███████░░░ 70% |
+| AI Fundamentals | ██████░░░░ 60% |
+
+<hr/>
+
+<!-- ===================== PROJECT SHOWCASE ===================== -->
+
+## 🚀 Project Showcase
+
+### 🔹 Brocode
+📘 Beginner friendly learning platform  
+Covers Java, Python, C, C++, HTML, DSA  
+Focus on simple explanations and examples  
+
+### 🔹 MirrorMind
+🧠 AI powered emotional health mirror  
+Detects emotions from face, voice, and text  
+Provides real time personalized feedback  
+Final year and hackathon ready project  
+
+### 🔹 Cheat Pros
+⚡ Programming cheat codes website  
+Quick syntax, tags, and logic references  
+
+### 🔹 Hackathon Projects
+🏆 Built AI, automation, and blockchain based solutions  
+🌍 National and international hackathons  
+
+<hr/>
+
+<!-- ===================== LEARNING ROADMAP ===================== -->
+
+## 🛣️ Learning Roadmap
+
+- Advanced Java and OOP mastery  
+- JavaScript for dynamic web apps  
+- Android development with Java  
+- AI and Machine Learning basics  
+- Cloud fundamentals  
+
+<hr/>
+
+<!-- ===================== ACHIEVEMENTS ===================== -->
+
+## 🏆 Achievements & Activities
 
 🏅 International hackathon participation and wins  
 📜 Microsoft AI workshops  
 📊 Tata Forage Data Visualization certification  
-🚀 Active in tech events and competitions  
+🎤 Project presentations and demos  
 
----
+<hr/>
 
-## 📊 GitHub Stats  
+<!-- ===================== GITHUB ANALYTICS ===================== -->
+
+## 📈 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yoogrammer&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=yoogrammer&show_icons=true&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yoogrammer&theme=tokyonight" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yoogrammer&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yoogrammer&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yoogrammer&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
----
+<hr/>
 
-## 🤝 Open To  
+<!-- ===================== OPEN TO ===================== -->
+
+## 🤝 Open To
 
 🤝 Collaborations  
-💡 Hackathons  
-🌱 Beginner friendly open source  
-👨‍💻 Learning with developers  
+🚀 Hackathons  
+📂 Beginner friendly open source  
+📚 Learning with developers  
 
----
+<hr/>
 
-## 📫 Connect With Me  
+<!-- ===================== CONTACT ===================== -->
+
+## 📫 Connect With Me
 
 <p>
   <a href="https://github.com/yoogrammer">
@@ -113,7 +156,10 @@ National and international hackathons
   </a>
 </p>
 
----
+<hr/>
 
-⭐ If you like my work, consider giving a star to my repositories  
-Thanks for visiting 🙂
+<p align="center">
+  ⭐ If you like my work, consider starring my repositories  
+  <br/>
+  Thanks for visiting 🙂
+</p>
