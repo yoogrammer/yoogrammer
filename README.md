@@ -419,6 +419,7 @@ Multiple projects built for national and international hackathons showcasing inn
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 
 </div>
+<!--
 
 > **Note:** To enable the snake animation on your profile, you need to set up a GitHub Action. 
 > 
@@ -465,6 +466,7 @@ jobs:
 5. Commit and wait for the action to run!
 
 </details>
+-->
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
