@@ -63,21 +63,37 @@ const rohan = {
 ## 🏆 Major Achievement
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="100" />
+  <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="100" />
 </p>
 
 <div align="center">
 
 ### 🌟 3rd Prize Winner - LabLab AI International Hackathon 🌟
 
-**Level:** Global Competition  
-**Organizer:** LabLab AI  
-**Recognition:** International participation and placement
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://media.giphy.com/media/26tPqTOGf3MMAaJR6/giphy.gif" width="80"><br/>
+      <b>🥉 3rd Place</b><br/>
+      Global Ranking
+    </td>
+    <td align="center">
+      <img src="https://media.giphy.com/media/l0HlHFRbmaZtBRhXG/giphy.gif" width="80"><br/>
+      <b>🌍 International</b><br/>
+      LabLab AI
+    </td>
+    <td align="center">
+      <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="80"><br/>
+      <b>🚀 Innovation</b><br/>
+      AI Solution
+    </td>
+  </tr>
+</table>
 
 </div>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yoogrammer&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1" />
+  <img src="https://github-profile-trophy.vercel.app/?username=yoogrammer&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
 </p>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
@@ -132,41 +148,62 @@ const rohan = {
 
 ## 📊 Skill Proficiency
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java" width="48" /> <b>Java</b>
-  <br/>
-  <img src="https://progress-bar.dev/90/?scale=100&title=Proficiency&width=400&color=orange&suffix=%" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python" width="48" /> <b>Python</b>
-  <br/>
-  <img src="https://progress-bar.dev/85/?scale=100&title=Proficiency&width=400&color=blue&suffix=%" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="48" /> <b>Data Structures & Algorithms</b>
-  <br/>
-  <img src="https://progress-bar.dev/80/?scale=100&title=Proficiency&width=400&color=green&suffix=%" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js" width="48" /> <b>Web Development</b>
-  <br/>
-  <img src="https://progress-bar.dev/75/?scale=100&title=Proficiency&width=400&color=purple&suffix=%" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=php,mysql" width="48" /> <b>Database & Backend</b>
-  <br/>
-  <img src="https://progress-bar.dev/70/?scale=100&title=Proficiency&width=400&color=cyan&suffix=%" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI-FF6F00?style=flat&logo=tensorflow&logoColor=white" width="48" /> <b>AI & Automation</b>
-  <br/>
-  <img src="https://progress-bar.dev/65/?scale=100&title=Proficiency&width=400&color=red&suffix=%" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="48" />
+    </td>
+    <td width="400">
+      <b>Java</b><br/>
+      <img src="https://progress-bar.dev/90/?scale=100&width=400&color=f89820&suffix=%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" />
+    </td>
+    <td width="400">
+      <b>Python</b><br/>
+      <img src="https://progress-bar.dev/85/?scale=100&width=400&color=3776ab&suffix=%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="48" />
+    </td>
+    <td width="400">
+      <b>Data Structures & Algorithms</b><br/>
+      <img src="https://progress-bar.dev/80/?scale=100&width=400&color=00599c&suffix=%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="48" />
+    </td>
+    <td width="400">
+      <b>Web Development</b><br/>
+      <img src="https://progress-bar.dev/75/?scale=100&width=400&color=e34f26&suffix=%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="48" />
+    </td>
+    <td width="400">
+      <b>Database & Backend</b><br/>
+      <img src="https://progress-bar.dev/70/?scale=100&width=400&color=777bb4&suffix=%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="48" />
+    </td>
+    <td width="400">
+      <b>AI & Automation</b><br/>
+      <img src="https://progress-bar.dev/65/?scale=100&width=400&color=ff6f00&suffix=%" />
+    </td>
+  </tr>
+</table>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
@@ -357,34 +394,78 @@ Multiple projects built for national and international hackathons showcasing inn
 
 ## 📈 GitHub Analytics
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=yoogrammer&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=9D4EDD&text_color=C9D1D9" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=yoogrammer&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=9D4EDD&currStreakLabel=00D9FF" />
-</p>
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=yoogrammer&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=yoogrammer&theme=radical&hide_border=true" />
+</div>
 
-<p align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yoogrammer&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=C9D1D9&langs_count=8" />
-</p>
+<div align="center">
+  <img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yoogrammer&layout=compact&theme=radical&hide_border=true&langs_count=10" />
+</div>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yoogrammer&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=9D4EDD&point=FFFFFF" width="90%" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yoogrammer&theme=tokyonight" width="90%" />
-</p>
+<div align="center">
+  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=yoogrammer&theme=radical&hide_border=true&area=true" alt="Activity Graph" />
+</div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 <!-- ===================== CONTRIBUTION SNAKE ===================== -->
 
-## 🐍 Contribution Snake
+## 🐍 Contribution Activity
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yoogrammer/yoogrammer/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yoogrammer/yoogrammer/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/yoogrammer/yoogrammer/output/github-contribution-grid-snake.svg">
-</picture>
+<div align="center">
+  
+### Watch my contributions get eaten by the snake! 🐍
+
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+
+</div>
+
+> **Note:** To enable the snake animation on your profile, you need to set up a GitHub Action. 
+> 
+> **Quick Setup:**
+> 1. Create `.github/workflows/snake.yml` in your profile repository
+> 2. Copy the snake workflow code (ask me if you need it!)
+> 3. The snake will automatically update daily
+
+<details>
+<summary>📁 Click here to see the Snake Workflow Code</summary>
+
+```yaml
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # Every 12 hours
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: yoogrammer
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+**Setup Instructions:**
+1. Go to your profile repository (yoogrammer/yoogrammer)
+2. Create folder: `.github/workflows/`
+3. Create file: `snake.yml`
+4. Paste the above code
+5. Commit and wait for the action to run!
+
+</details>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
