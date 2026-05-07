@@ -28,6 +28,10 @@ load_dotenv()
 # Streamlit page config required by specification.
 st.set_page_config(page_title="Med-Audit Swarm", layout="wide")
 
+MAX_VISIBLE_LOG_ENTRIES = 30
+MAX_LOG_MESSAGE_LENGTH = 450
+RETRY_BACKOFF_SECONDS = 2
+
 
 class UILogger:
     """Simple UI logger that writes collaboration updates to sidebar + live console."""
@@ -41,7 +45,7 @@ class UILogger:
         if not entries:
             log_md = "_Waiting for agent collaboration..._"
         else:
-            log_md = "\n\n".join(entries[-30:])  # Keep UI compact and readable.
+            log_md = "\n\n".join(entries[-MAX_VISIBLE_LOG_ENTRIES:])  # Keep UI compact and readable.
         self.sidebar_placeholder.markdown(log_md)
         self.console_placeholder.markdown(log_md)
 
@@ -52,7 +56,7 @@ class UILogger:
     def log(self, speaker: str, message: str) -> None:
         timestamp = time.strftime("%H:%M:%S")
         cleaned = " ".join(str(message).split())
-        entry = f"- `{timestamp}` **{speaker}:** {cleaned[:450]}"
+        entry = f"- `{timestamp}` **{speaker}:** {cleaned[:MAX_LOG_MESSAGE_LENGTH]}"
         st.session_state.setdefault("collab_logs", []).append(entry)
         self._render()
 
@@ -63,7 +67,9 @@ def build_llm() -> ChatOpenAI:
     """
     return ChatOpenAI(
         model="Qwen/Qwen2.5-72B-Instruct",
+        # vLLM OpenAI-compatible servers often use a placeholder token for local/private access.
         api_key="EMPTY",
+        # Keep placeholder exactly as requested; replace with your AMD instance IP during deployment.
         base_url="http://YOUR_AMD_INSTANCE_IP:8000/v1",
         temperature=0.0,
         timeout=60,
@@ -246,7 +252,7 @@ def run_audit_with_retry(
             logger.log("System", f"Endpoint issue on attempt {attempt}: {exc}")
             if attempt < max_attempts:
                 logger.log("System", "Retrying after brief backoff...")
-                time.sleep(2)
+                time.sleep(RETRY_BACKOFF_SECONDS)
             else:
                 break
         except Exception as exc:
@@ -259,7 +265,7 @@ def run_audit_with_retry(
             "Unable to complete clinical audit because the AMD vLLM endpoint is unavailable or returned an error. "
             "Please verify the server is running and try again."
         ) from last_error
-    raise RuntimeError("Clinical audit failed unexpectedly without an explicit error.")
+    raise RuntimeError("Clinical audit failed unexpectedly.")
 
 
 # -------------------------------
