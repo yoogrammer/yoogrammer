@@ -19,14 +19,20 @@ from PyPDF2 import PdfReader
 # OpenAI-compatible client exceptions used by LangChain's ChatOpenAI backend.
 try:
     from openai import APIConnectionError, APIError, APITimeoutError
+    OPENAI_EXCEPTION_FALLBACK = False
 except Exception:  # pragma: no cover - defensive fallback for older environments
     APIConnectionError = APITimeoutError = APIError = Exception
+    OPENAI_EXCEPTION_FALLBACK = True
 
 # Load environment variables from .env for local development flexibility.
 load_dotenv()
 
 # Streamlit page config required by specification.
 st.set_page_config(page_title="Med-Audit Swarm", layout="wide")
+if OPENAI_EXCEPTION_FALLBACK:
+    st.sidebar.info(
+        "OpenAI exception classes unavailable; using broad fallback exception handling."
+    )
 
 MAX_VISIBLE_LOG_ENTRIES = 30
 MAX_LOG_MESSAGE_LENGTH = 450
@@ -225,7 +231,7 @@ def run_audit_with_retry(
     max_attempts: int = 3,
 ) -> Any:
     """Run CrewAI flow with robust retry logic for remote vLLM connectivity issues."""
-    last_error: Exception | None = None
+    last_error: Exception = RuntimeError("Unknown failure during clinical audit.")
     for attempt in range(1, max_attempts + 1):
         logger.log("System", f"Attempt {attempt}/{max_attempts}: preparing agents and tasks.")
         try:
@@ -260,12 +266,10 @@ def run_audit_with_retry(
             logger.log("System", f"Unhandled execution error: {exc}")
             break
 
-    if last_error is not None:
-        raise RuntimeError(
-            "Unable to complete clinical audit because the AMD vLLM endpoint is unavailable or returned an error. "
-            "Please verify the server is running and try again."
-        ) from last_error
-    raise RuntimeError("Clinical audit failed unexpectedly.")
+    raise RuntimeError(
+        "Unable to complete clinical audit because the AMD vLLM endpoint is unavailable or returned an error. "
+        "Please verify the server is running and try again."
+    ) from last_error
 
 
 # -------------------------------
@@ -353,7 +357,10 @@ def execute_audit(user_text: str, pdf_file: Any, medication: str) -> None:
         final_history = resolve_patient_history_from_inputs(user_text, pdf_file, logger)
     except Exception as parse_exc:
         st.session_state["last_run_failed"] = True
-        st.error(f"Failed to process patient history input: {parse_exc}")
+        st.error(
+            "Failed to process patient history input. Ensure the PDF is readable (not encrypted/corrupted and "
+            "not purely image-based without OCR), or provide history in text form."
+        )
         logger.log("System", f"Input processing error: {parse_exc}")
         return
 
