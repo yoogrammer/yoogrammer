@@ -1,7 +1,0 @@
-streamlit
-crewai
-langchain_openai
-python-dotenv
-PyPDF2
-langchain-community
-duckduckgo-search
