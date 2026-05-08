@@ -429,7 +429,7 @@ Multiple projects built for national and international hackathons showcasing inn
 > 3. The snake will automatically update daily
 
 <details>
-<summary>📁 Click here to see the Snake Workflow Code</summary>
+<summary>📁 Click here to see the Snake  Workflow Code</summary>
 
 ```yaml
 name: Generate Snake
